@@ -1,0 +1,36 @@
+$header_fonts-text: "Arial"
+$color-text: #000000
+html
+	box-sizing: border-box
+*,
+*::before,
+*::after
+	box-sizing: inherit
+body
+	color: $color-text
+	font-family: $header_fonts-text
+img
+	max-width: 100%
+	height: auto
+header
+	margin-top: 40px
+	.container
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		justify-content: space-between
+nav
+	ul
+		display: flex
+		margin-left: 20px
+	ul:first-child
+		margin: 0
+	a
+		color: $color-text
+		text-decoration: none
+		font-family: 'Arial'
+		font-style: normal
+		font-weight: 400
+		font-size: 17px
+		line-height: 25px
+		text-transform: uppercase
